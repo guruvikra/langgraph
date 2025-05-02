@@ -41,7 +41,7 @@ def get_review_decision(state: State):
     print(post)
     print("-------------------\n")
 
-    decision = input("Is this post ok? (yes/no): ") 
+    decision = input("Is this post ok? (yes/no): ")
     if decision.lower() =="yes":
         return POST
     else:
